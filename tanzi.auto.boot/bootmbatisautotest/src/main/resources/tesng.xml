@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="用户管理系统测试套件">
+    <test name="test case">
+        <classes>
+        <class name="com.tanzi.cases.LoginTest">
+            <methods>
+                <include name="loginTrue"></include>
+                <include name="loginFalse"></include>
+            </methods>
+        </class>
+        <class name ="com.tanzi.cases.AddUserTest">
+            <methods>
+            <include name ="addUser"></include>
+            </methods>
+        </class>
+        <class name ="com.tanzi.cases.getUserInfoTest">
+            <methods>
+                <include name="getUserInfo"></include>
+            </methods>
+        </class>
+        <class name="com.tanzi.cases.getUserListInfoTest">
+            <methods>
+                <include name ="getUserListInfo"></include>
+            </methods>
+        </class>
+        <class name ="com.tanzi.cases.UpdateUserInfoTest">
+            <methods>
+                <include name ="updateUserInfo"></include>
+                <include name ="deleteUser"></include>
+            </methods>
+        </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.tanzi.config.ExtentTestNGReportListener" />
+    </listeners>
+
+</suite>

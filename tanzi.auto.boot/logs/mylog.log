@@ -1,0 +1,20 @@
+2020-04-01 00:36:44.437 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-01 00:36:44.443 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-01 00:36:44.446 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-01 00:36:44.451 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-01 10:56:00.543 [main] INFO  com.tanzi.Application - Starting Application on Mac-mini.local with PID 1477 (/Users/tanzi/IdeaProjects/tanzi.auto.boot/bootmbatisinterface/target/classes started by tanzi in /Users/tanzi/IdeaProjects/tanzi.auto.boot)
+2020-04-01 10:56:00.548 [main] INFO  com.tanzi.Application - No active profile set, falling back to default profiles: default
+2020-04-01 10:56:02.577 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tanzi]' package. Please check your configuration.
+2020-04-01 10:56:03.317 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2020-04-01 10:56:03.332 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-01 10:56:03.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 10:56:03.444 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-01 10:56:03.444 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2799 ms
+2020-04-01 10:56:04.488 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-01 10:56:04.610 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 10:56:04.803 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-01 10:56:04.851 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-01 10:56:04.883 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-01 10:56:04.918 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-01 10:56:05.219 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2020-04-01 10:56:05.223 [main] INFO  com.tanzi.Application - Started Application in 6.255 seconds (JVM running for 8.3)

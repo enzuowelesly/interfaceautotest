@@ -1,0 +1,21 @@
+server:
+  port: 8899
+
+logging:
+  path: logs
+  file: mylog.log
+
+
+spring:
+  application:
+    name: report
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/autotest?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT
+    username: spring
+    password: spring
+
+mybatis:
+  type-aliases-package: com.tanzi.model
+  mapper-locations:
+    - mapper/*

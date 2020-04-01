@@ -1,0 +1,4 @@
+com/tanzi/Application.class
+com/tanzi/config/SwaggerConfig.class
+com/tanzi/controller/UserManager.class
+com/tanzi/model/User.class
