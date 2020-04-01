@@ -49,7 +49,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 31, 2020 11:43:59 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Apr 1, 2020 12:16:51 PM</span>
 				</a>
 			</li>
 			<li>
@@ -136,10 +136,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='85.714%'><span class='strong'>6</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='14.286%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -151,10 +151,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='85.714%'><span class='strong'>6</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='14.286%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -171,15 +171,15 @@
 				
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>updateUserInfo</span>
-						<span class='test-time'>Mar 31, 2020 11:44:00 PM</span>
+						<span class='test-name'>addUser</span>
+						<span class='test-time'>Apr 1, 2020 12:16:52 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 31, 2020 11:44:00 PM</span>
-	<span class='label end-time'>Mar 31, 2020 11:44:30 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 30s+171ms</span>
+	<span class='label start-time'>Apr 1, 2020 12:16:52 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:16:55 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+142ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -193,12 +193,10 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>11:44:30 PM</td>
-					<td class='step-details'><pre>java.lang.AssertionError: expected object to not be null
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertNotNull(Assert.java:874)
-	at org.testng.Assert.assertNotNull(Assert.java:858)
-	at com.tanzi.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:30)
+					<td class='timestamp'>12:17:00 PM</td>
+					<td class='step-details'><pre>org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 3
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:80)
+	at com.tanzi.cases.AddUserTest.addUser(AddUserTest.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -238,14 +236,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>loginTrue</span>
-						<span class='test-time'>Mar 31, 2020 11:43:59 PM</span>
+						<span class='test-time'>Apr 1, 2020 12:16:51 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 31, 2020 11:43:59 PM</span>
-	<span class='label end-time'>Mar 31, 2020 11:44:00 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+112ms</span>
+	<span class='label start-time'>Apr 1, 2020 12:16:51 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:16:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+324ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -264,7 +262,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:44:30 PM</td>
+					<td class='timestamp'>12:17:00 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -277,14 +275,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>loginFalse</span>
-						<span class='test-time'>Mar 31, 2020 11:44:00 PM</span>
+						<span class='test-time'>Apr 1, 2020 12:16:52 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 31, 2020 11:44:00 PM</span>
-	<span class='label end-time'>Mar 31, 2020 11:44:00 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+136ms</span>
+	<span class='label start-time'>Apr 1, 2020 12:16:52 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:16:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+121ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -298,7 +296,143 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>11:44:30 PM</td>
+					<td class='timestamp'>12:17:00 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>getUserInfo</span>
+						<span class='test-time'>Apr 1, 2020 12:16:55 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 1, 2020 12:16:55 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:16:55 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+168ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:17:00 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>getUserListInfo</span>
+						<span class='test-time'>Apr 1, 2020 12:16:55 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 1, 2020 12:16:55 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:16:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+131ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:17:00 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>updateUserInfo</span>
+						<span class='test-time'>Apr 1, 2020 12:16:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 1, 2020 12:16:56 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:16:58 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+107ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:17:00 PM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>deleteUser</span>
+						<span class='test-time'>Apr 1, 2020 12:16:58 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 1, 2020 12:16:58 PM</span>
+	<span class='label end-time'>Apr 1, 2020 12:17:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+105ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:17:00 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -381,7 +515,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 31, 2020 11:43:59 PM</td>
+										<td>Apr 1, 2020 12:16:51 PM</td>
 										<td class='linked' test-id='2'>loginTrue</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -429,7 +563,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.AssertionError</span>
+                                <span class='exception-name'>org.apache.ibatis.exceptions.TooManyResultsException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -444,13 +578,11 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Mar 31, 2020 11:44:00 PM</td>
-                                                        <td class='linked' test-id='1'>updateUserInfo</td>
-                                                        <td><pre><pre>java.lang.AssertionError: expected object to not be null
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertNotNull(Assert.java:874)
-	at org.testng.Assert.assertNotNull(Assert.java:858)
-	at com.tanzi.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:30)
+                                                        <td>Apr 1, 2020 12:16:52 PM</td>
+                                                        <td class='linked' test-id='1'>addUser</td>
+                                                        <td><pre><pre>org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 3
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:80)
+	at com.tanzi.cases.AddUserTest.addUser(AddUserTest.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -504,31 +636,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 31, 2020 11:43:59 PM</div>
+					<div class='panel-lead'>Apr 1, 2020 12:16:51 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 31, 2020 11:44:00 PM</div>
+			 		<div class='panel-lead'>Apr 1, 2020 12:16:52 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>1,112ms</div>
+					<div class='panel-lead'>1,324ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -561,7 +693,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 2,
+				passParent: 6,
 				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
@@ -569,7 +701,7 @@
 				skipParent: 0,
 				exceptionsParent: 1,
 				
-				passChild: 2,
+				passChild: 6,
 				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
