@@ -24,7 +24,7 @@ public class ExtentTestNGReportListener implements IReporter {
     static String second = String.format("%tS", date);
     //生成的路径以及文件名
     private static final String OUTPUT_FOLDER = "test-output/";
-    private static final String FILE_NAME = "index"+form+hour+minute+second+".html";
+    private static final String FILE_NAME = "index.html";
     private ExtentReports extent;
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
